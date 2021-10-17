@@ -1,2 +1,2 @@
 # Pools-project
-Project aimed to implement Pathoharacterological diagnostic questionnairepoetry install
+Project aimed to implement Pathoharacterological diagnostic questionnaire install
