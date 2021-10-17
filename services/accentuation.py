@@ -24,12 +24,12 @@ class Accentuation(ABC):
     def __str__(self) -> str:
         return f"{self.__class__.__name__} score = {self._score}"
     
-    def increase_score(self, value: int) -> None:
+    def increase(self, value: int) -> None:
         "Enchance score of accentuation."
         if isinstance(value, int):
             self._score += value
     
-    def decrease_score(self, value: int) -> None:
+    def decrease(self, value: int) -> None:
         "Reduce score of accentuation"
         if isinstance(value, int):
             self._score -= value
